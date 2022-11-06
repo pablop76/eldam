@@ -1,0 +1,204 @@
+.box-shadow {
+  box-shadow: 0px 8px 36px 0px rgb(66, 68, 90);
+}
+
+.background-accent-color-light {
+  background-color: #e9db0a;
+}
+
+.background-base-color-moredark {
+  background-color: #2a264b;
+  color: #fff;
+}
+
+.uk-button-eldam {
+  background-color: #feee01;
+  color: #000;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.widget-fb {
+  position: relative;
+  width: 280px;
+  margin-right: -210px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-top-left-radius: 80px 80px;
+  border-bottom-left-radius: 80px 80px;
+  background-color: #1877f2;
+  padding: 5px;
+}
+.widget-fb_show {
+  margin-right: 0;
+}
+.widget-fb img {
+  border: 1px solid #fff;
+}
+
+.container-fb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 210px;
+  height: 300px;
+  background-color: #1877f2;
+  margin-right: 0;
+}
+
+.back-to-top {
+  width: 54px;
+  height: 54px;
+  background-color: #e9db0a;
+  cursor: pointer;
+  right: -200px;
+  transition: all 0.5s;
+}
+.back-to-top span {
+  color: #000;
+}
+.back-to-top:hover {
+  box-shadow: 0px 0px 24px 0px rgb(66, 68, 90);
+}
+
+.uk-navbar {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.uk-navbar-nav > li.uk-active > a {
+  color: #fff;
+}
+
+.uk-logo {
+  color: #fff;
+}
+
+.bg-moredark {
+  background-color: #2a264b;
+}
+
+.uk-navbar-nav > li.uk-active > a {
+  color: #feee01;
+}
+
+.footer .uk-nav-default > li.uk-active > a {
+  color: #feee01;
+}
+
+.uk-navbar-nav > li > a {
+  text-transform: none;
+  color: #fff;
+}
+
+.uk-nav-default > li > a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.uk-overlay-eldam {
+  background-color: #2a264b;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.uk-overlay-eldam a {
+  color: #feee01;
+}
+
+.tiles .uk-card {
+  border-top: 4px solid #feee01;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.uk-card-el-dam {
+  background-color: #fff;
+  color: #666;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.uk-card-el-dam__first {
+  background-color: #2a264b;
+  box-shadow: 0 5px 10px #2a264b;
+  color: #fff;
+}
+.uk-card-el-dam__two {
+  background-color: #55516f;
+  box-shadow: 0 5px 10px #55516f;
+  color: #fff;
+}
+.uk-card-el-dam__three {
+  background-color: #6c64ac;
+  box-shadow: 0 5px 10px #6c64ac;
+  color: #fff;
+}
+.uk-card-el-dam__for {
+  background-color: #473e98;
+  box-shadow: 0 5px 10px #473e98;
+  color: #fff;
+}
+
+@media screen and (min-width: 640px) {
+  .tiles {
+    margin-top: -100px;
+  }
+}
+.footer {
+  color: #fff;
+}
+.footer h3 {
+  color: #6c64ac;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.uk-subnav > * > :first-child {
+  text-transform: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.uk-subnav-pill > .uk-active > a {
+  background-color: transparent;
+  color: #e9db0a;
+  text-transform: none;
+}
+
+.testimonials-city {
+  color: #e9db0a;
+}
+
+.testimonials-name {
+  font-weight: bold;
+}
+
+.oferta h1 {
+  color: #fff;
+}
+
+.overlay-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  width: 50%;
+  left: -20%;
+  top: 0;
+  bottom: 0;
+  background-color: #473e98;
+  mix-blend-mode: multiply;
+  transform: skew(-0.312rad);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}

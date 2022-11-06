@@ -1,0 +1,10 @@
+.uk-subnav > * > :first-child {
+  text-transform: none;
+  color: #000;
+  font-size: 16px;
+}
+.uk-subnav-pill > .uk-active > a {
+  background-color: transparent;
+  color: $accent-color-light;
+  text-transform: none;
+}

@@ -1,0 +1,24 @@
+.uk-navbar {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.uk-navbar-nav > li.uk-active > a {
+  color: #fff;
+}
+.uk-logo {
+  color: #fff;
+}
+.bg-moredark {
+  background-color: $base-color-moredark;
+}
+.uk-navbar-nav > li.uk-active > a {
+  color: $accent-color-dark;
+}
+.footer .uk-nav-default > li.uk-active > a {
+  color: $accent-color-dark;
+}
+.uk-navbar-nav > li > a {
+  text-transform: none;
+  color: #fff;
+}

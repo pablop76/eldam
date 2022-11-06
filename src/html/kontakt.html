@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    @@include("./particles/head.html")
+</head>
+<body>
+    @@include("./particles/widget-fb.html")
+    <div class="uk-section uk-padding-remove bg-moredark">
+        <div class="uk-container uk-padding-remove">
+            @@include("./particles/navbar.html",{
+                "kontakt":"uk-active"
+            })
+        </div>
+    </div>
+    <div class="uk-section uk-padding-remove">
+        <div class="uk-container uk-container-expand uk-padding-remove">
+            <div>
+                <div class="oferta uk-background-cover uk-background-muted uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(images/oferta.jpg);">
+                    <h1>Kontakt<h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section uk-padding-remove-bottom">
+        <div class="uk-container">
+            <div class="uk-child-width-1-2@m uk-text-left" data-uk-grid>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        <span class="subtitle">Masz pytania?</span>
+                        <h2>Skontaktuj się z nami!</h2>
+                        <div uk-grid class="uk-child-width-1-1 uk-child-width-1-2@s">
+                            <div class="">
+                                <div class="uk-text-bold">ELDAM Damian Szlendak</div>
+                                <p>Łęczeszyce 10;</p>
+                                <p>05-622 Belsk Duży</p>
+                            </div>
+                            <div class="">
+                                <div class="uk-text-bold">Dane kontaktowe</div>
+                                <p>tel: 531 649 707
+                                <p>tel: 693 845 535</p>
+                                <p>e-mail: instalacjeeldam@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section">
+        <div class="uk-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187896.69144608968!2d20.755636958993477!3d51.773704854547105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47191a1827f57891%3A0xd8f314550685cf4f!2zxYHEmWN6ZXN6eWNlIDEwLCAwNS02MjI!5e0!3m2!1spl!2spl!4v1667666687061!5m2!1spl!2spl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="footer uk-section uk-padding-remove bg-moredark">
+        <div class="uk-container uk-padding-remove">
+            <div class="footer uk-grid-match uk-child-width-expand@s uk-text-left" data-uk-grid>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        @@include("./particles/dane-firmy.html")
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        @@include("./particles/kontakt-footer.html")
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        @@include("./particles/nav.html",{
+                            "kontakt":"uk-active"
+                        })
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        @@include("./particles/socialmedia.html")
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @@include("./particles/back-to-top.html")
+    <script src="js/app.js"></script>
+</body>
+</html>

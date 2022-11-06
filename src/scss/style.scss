@@ -1,0 +1,28 @@
+// @import "./vendors/";
+@import "./abstracts/variables";
+@import "./abstracts/utility";
+//components
+@import "./components/button";
+@import "./components/widget-fb";
+@import "./components/back-to-top";
+//layout
+@import "./layout/navbar";
+@import "./layout/nav";
+@import "./layout/slider";
+@import "./layout/tiles";
+@import "./layout/footer";
+@import "./layout/gallery";
+@import "./layout/testimonials";
+//page
+@import "./page/oferta";
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}

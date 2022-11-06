@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    @@include("./particles/head.html")
+</head>
+<body>
+    @@include("./particles/widget-fb.html")
+    <div class="uk-section uk-padding-remove bg-moredark">
+        <div class="uk-container uk-padding-remove">
+            @@include("./particles/navbar.html",{
+                "realizacje":"uk-active"
+            })
+        </div>
+    </div>
+    <div class="uk-section uk-padding-remove">
+        <div class="uk-container uk-container-expand uk-padding-remove">
+            <div>
+                <div class="oferta uk-background-cover uk-background-muted uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(images/oferta.jpg);">
+                    <h1>Realizacje<h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section uk-padding-remove-bottom">
+        <div class="uk-container">
+            <div class="uk-child-width-1-2@m uk-text-left" data-uk-grid>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        <span class="subtitle">Kompleksowe rozwiązania dla Twojego domu</span>
+                        <h2>Galeria z wybranych realizacji</h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus tristique justo at rutrum. Nullam in dapibus nulla. Nulla pharetra, sem vitae malesuada hendrerit, risus urna venenatis mi, at commodo turpis dolor vel ante. Mauris consequat sem vitae ligula fermentum volutpat. Phasellus id tempor mauris. Quisque porta pharetra malesuada. </p>
+                        <p>Pellentesque mi libero, interdum consequat arcu nec, volutpat ullamcorper ligula. Aenean suscipit leo sit amet nunc ultrices, ut semper risus semper. Sed euismod pellentesque enim. Mauris nec malesuada nibh. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section">
+        <div class="uk-container">
+            <h3>Galeria</h3>
+            @@include("./particles/gallery.html")
+        </div>
+    </div>
+    <div class="uk-section uk-padding-remove-top">
+        <div class="uk-container uk-container-small">
+            <h3>Video</h3>
+            @@include("./particles/video.html")
+        </div>
+    </div>
+    @@include("./particles/call-too-action.html", {
+        "header": "Poznaj opinie Klientów, którzy już skorzystali z naszych usług",
+        "title-button": "opinie"
+      })
+    <div class="footer uk-section uk-padding-remove bg-moredark">
+        <div class="uk-container uk-padding-remove">
+            <div class="footer uk-grid-match uk-child-width-expand@s uk-text-left" data-uk-grid>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        @@include("./particles/dane-firmy.html")
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        @@include("./particles/kontakt-footer.html")
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        @@include("./particles/nav.html",{
+                            "realizacje":"uk-active"
+                        })
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        @@include("./particles/socialmedia.html")
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @@include("./particles/back-to-top.html")
+    <script src="js/app.js"></script>
+</body>
+</html>

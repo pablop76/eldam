@@ -1,0 +1,17 @@
+.oferta h1 {
+  color: #fff;
+}
+.overlay-container {
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  width: 50%;
+  left: -20%;
+  top: 0;
+  bottom: 0;
+  background-color: $base-color-dark;
+  mix-blend-mode: multiply;
+  transform: skew(-0.312rad);
+}

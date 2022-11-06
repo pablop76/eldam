@@ -1,0 +1,13 @@
+.box-shadow {
+  -webkit-box-shadow: 0px 8px 36px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 8px 36px 0px rgba(66, 68, 90, 1);
+  box-shadow: 0px 8px 36px 0px rgba(66, 68, 90, 1);
+}
+
+.background-accent-color-light {
+  background-color: $accent-color-light;
+}
+.background-base-color-moredark {
+  background-color: $base-color-moredark;
+  color: #fff;
+}

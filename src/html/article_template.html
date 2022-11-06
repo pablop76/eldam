@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    @@include("./particles/head.html")
+</head>
+<body>
+    @@include("./particles/widget-fb.html")
+    <div class="uk-section uk-padding-remove bg-moredark">
+        <div class="uk-container uk-padding-remove">
+            @@include("./particles/navbar.html",{
+                "realizacje":"uk-active"
+            })
+        </div>
+    </div>
+    <div class="uk-section uk-padding-remove">
+        <div class="uk-container uk-container-expand uk-padding-remove">
+            <div>
+                <div class="oferta uk-background-cover uk-background-muted uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(images/oferta.jpg);">
+                    <h1>Nagłowek<h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- kontener na cały content -->
+    <div class="uk-container uk-container-small">
+    <div class="uk-section">
+        <div class="uk-container">
+            <div class="uk-card uk-card-body">
+                <span class="subtitle">Kompleksowe rozwiązania dla Twojego domu</span>
+                <h2>Instalacje elektryczne i teletechniczne</h2>
+            </div>
+            <div class="uk-card uk-card-body uk-padding-remove-top uk-padding-remove-bottom">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus tristique justo at rutrum. Nullam in dapibus nulla. Nulla pharetra, sem vitae malesuada hendrerit, risus urna venenatis mi, at commodo turpis dolor vel ante. Mauris consequat sem vitae ligula fermentum volutpat. Phasellus id tempor mauris. Quisque porta pharetra malesuada. </p>
+                <p>Pellentesque mi libero, interdum consequat arcu nec, volutpat ullamcorper ligula. Aenean suscipit leo sit amet nunc ultrices, ut semper risus semper. Sed euismod pellentesque enim. Mauris nec malesuada nibh. 
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section uk-padding-remove-top">
+        <div class="uk-container">
+            <img src="images/inteligentny-dom.jpg" alt="" class="uk-align-center">
+        </div>
+    </div>
+    <div class="uk-section uk-padding-remove-top">
+        <div class="uk-container">
+            <div class="uk-card uk-card-body uk-padding-remove-top uk-padding-remove-bottom">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus tristique justo at rutrum. Nullam in dapibus nulla. Nulla pharetra, sem vitae malesuada hendrerit, risus urna venenatis mi, at commodo turpis dolor vel ante. Mauris consequat sem vitae ligula fermentum volutpat. Phasellus id tempor mauris. Quisque porta pharetra malesuada. </p>
+                <p>Pellentesque mi libero, interdum consequat arcu nec, volutpat ullamcorper ligula. Aenean suscipit leo sit amet nunc ultrices, ut semper risus semper. Sed euismod pellentesque enim. Mauris nec malesuada nibh. 
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section uk-padding-remove-top">
+        <div class="uk-container">
+            <h3>Galeria</h3>
+            <div class="uk-grid-small uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m" data-uk-grid data-uk-lightbox="animation: fade">
+                <div>
+                    <a class="uk-inline" href="images/galeria-1.jpg" data-caption="Caption 1">
+                        <img src="images/galeria-1.jpg" width="1800" height="1200" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="images/galeria-2.jpg" data-caption="Caption 2">
+                        <img src="images/galeria-2.jpg" width="1800" height="1200" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="images/galeria-3.jpg" data-caption="Caption 3">
+                        <img src="images/galeria-3.jpg" width="1800" height="1200" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="uk-inline" href="images/galeria-4.jpg" data-caption="Caption 3">
+                        <img src="images/galeria-4.jpg" width="1800" height="1200" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section uk-padding-remove-top">
+        <div class="uk-container">
+        <h3>Video</h3>
+        @@include("./particles/video.html")
+        </div>
+    </div>
+</div>
+    <div class="footer uk-section uk-padding-remove bg-moredark">
+        <div class="uk-container uk-padding-remove">
+            <div class="footer uk-grid-match uk-child-width-expand@s uk-text-left" data-uk-grid>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        @@include("./particles/dane-firmy.html")
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        @@include("./particles/kontakt-footer.html")
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        @@include("./particles/nav.html",{
+                            "realizacje":"uk-active"
+                        })
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        @@include("./particles/socialmedia.html")
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @@include("./particles/back-to-top.html")
+    <script src="js/app.js"></script>
+</body>
+</html>
