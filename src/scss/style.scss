@@ -1,3 +1,5 @@
+// base
+@import "./base/reset";
 // @import "./vendors/";
 @import "./abstracts/variables";
 @import "./abstracts/utility";
@@ -15,14 +17,3 @@
 @import "./layout/testimonials";
 //page
 @import "./page/oferta";
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-}

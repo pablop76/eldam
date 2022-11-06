@@ -11,3 +11,32 @@
   background-color: $base-color-moredark;
   color: #fff;
 }
+.subtitle {
+  position: relative;
+  margin-left: 40px;
+
+  &:before {
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: 3px;
+    background-color: $accent-color-dark;
+    top: 50%;
+    left: -40px;
+  }
+}
+.overlay-container {
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+}
+.overlay-skew {
+  position: absolute;
+  width: 50%;
+  left: -20%;
+  top: 0;
+  bottom: 0;
+  background-color: $base-color-dark;
+  mix-blend-mode: multiply;
+  transform: skew(-0.312rad);
+}

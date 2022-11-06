@@ -1,3 +1,15 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
 .box-shadow {
   box-shadow: 0px 8px 36px 0px rgb(66, 68, 90);
 }
@@ -11,11 +23,43 @@
   color: #fff;
 }
 
+.subtitle {
+  position: relative;
+  margin-left: 40px;
+}
+.subtitle:before {
+  position: absolute;
+  content: "";
+  width: 32px;
+  height: 3px;
+  background-color: #feee01;
+  top: 50%;
+  left: -40px;
+}
+
+.overlay-container {
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+}
+
+.overlay-skew {
+  position: absolute;
+  width: 50%;
+  left: -20%;
+  top: 0;
+  bottom: 0;
+  background-color: #473e98;
+  mix-blend-mode: multiply;
+  transform: skew(-0.312rad);
+}
+
 .uk-button-eldam {
   background-color: #feee01;
   color: #000;
   font-weight: 600;
   text-transform: none;
+  font-family: "Poppins", sans-serif;
 }
 
 .widget-fb {
@@ -82,10 +126,6 @@
   color: #feee01;
 }
 
-.footer .uk-nav-default > li.uk-active > a {
-  color: #feee01;
-}
-
 .uk-navbar-nav > li > a {
   text-transform: none;
   color: #fff;
@@ -94,6 +134,11 @@
 .uk-nav-default > li > a {
   color: #fff;
   font-size: 16px;
+}
+
+.footer .uk-nav-default > li.uk-active > a {
+  color: #feee01;
+  margin-left: 7px;
 }
 
 .uk-overlay-eldam {
@@ -105,43 +150,6 @@
   color: #feee01;
 }
 
-.tiles .uk-card {
-  border-top: 4px solid #feee01;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 3px;
-}
-
-.uk-card-el-dam {
-  background-color: #fff;
-  color: #666;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-}
-.uk-card-el-dam__first {
-  background-color: #2a264b;
-  box-shadow: 0 5px 10px #2a264b;
-  color: #fff;
-}
-.uk-card-el-dam__two {
-  background-color: #55516f;
-  box-shadow: 0 5px 10px #55516f;
-  color: #fff;
-}
-.uk-card-el-dam__three {
-  background-color: #6c64ac;
-  box-shadow: 0 5px 10px #6c64ac;
-  color: #fff;
-}
-.uk-card-el-dam__for {
-  background-color: #473e98;
-  box-shadow: 0 5px 10px #473e98;
-  color: #fff;
-}
-
-@media screen and (min-width: 640px) {
-  .tiles {
-    margin-top: -100px;
-  }
-}
 .footer {
   color: #fff;
 }
@@ -173,32 +181,4 @@
 
 .oferta h1 {
   color: #fff;
-}
-
-.overlay-container {
-  position: relative;
-  overflow: hidden;
-}
-
-.overlay {
-  position: absolute;
-  width: 50%;
-  left: -20%;
-  top: 0;
-  bottom: 0;
-  background-color: #473e98;
-  mix-blend-mode: multiply;
-  transform: skew(-0.312rad);
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
 }

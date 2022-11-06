@@ -6,3 +6,9 @@
     }
   }
 }
+.footer {
+  .uk-nav-default > li.uk-active > a {
+    color: $accent-color-dark;
+    margin-left: 7px;
+  }
+}
