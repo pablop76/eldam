@@ -63,6 +63,7 @@ const watch = function (cb) {
   gulp.watch("src/scss/**/*.scss", gulp.series(css, htmlReload));
   gulp.watch("src/html/**/*.html", gulp.series(html, htmlReload));
   gulp.watch("src/js/**/*.js", gulp.series(js, htmlReload));
+  gulp.watch("src/images/*", gulp.series(image, htmlReload));
   cb();
 };
 
