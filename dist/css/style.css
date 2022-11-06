@@ -1,3 +1,6 @@
+/*!
+ utility 
+ */
 .box-shadow {
   box-shadow: 0px 8px 36px 0px rgb(66, 68, 90);
 }
@@ -55,6 +58,9 @@
   transform: skew(-0.312rad);
 }
 
+/*!
+ reset 
+ */
 body {
   font-family: "Montserrat", sans-serif;
   color: #2a264b;
@@ -128,6 +134,9 @@ h2 {
   box-shadow: 0px 0px 24px 0px rgb(66, 68, 90);
 }
 
+/*!
+ navbar 
+ */
 .uk-navbar {
   justify-content: space-between;
   width: 100%;
@@ -171,6 +180,9 @@ h2 {
   margin-left: 7px;
 }
 
+/*!
+ slider 
+ */
 .uk-overlay-eldam {
   background-color: #2a264b;
   font-family: "Poppins", sans-serif;
@@ -200,6 +212,9 @@ h2 {
   text-transform: none;
 }
 
+/*! 
+testimonials 
+*/
 .testimonials-city {
   color: #feee01;
 }

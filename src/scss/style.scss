@@ -1,8 +1,10 @@
 // abstracts
 @import "./abstracts/variables";
 @import "./abstracts/utility";
+
 // base
 @import "./base/reset";
+
 //components
 @import "./components/button";
 @import "./components/widget-fb";
@@ -11,7 +13,6 @@
 @import "./layout/navbar";
 @import "./layout/nav";
 @import "./layout/slider";
-@import "./layout/tiles";
 @import "./layout/footer";
 @import "./layout/gallery";
 @import "./layout/testimonials";
