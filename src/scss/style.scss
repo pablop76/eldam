@@ -1,8 +1,8 @@
-// base
-@import "./base/reset";
-// @import "./vendors/";
+// abstracts
 @import "./abstracts/variables";
 @import "./abstracts/utility";
+// base
+@import "./base/reset";
 //components
 @import "./components/button";
 @import "./components/widget-fb";
@@ -15,5 +15,3 @@
 @import "./layout/footer";
 @import "./layout/gallery";
 @import "./layout/testimonials";
-//page
-@import "./page/oferta";

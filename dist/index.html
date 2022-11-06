@@ -23,14 +23,14 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="widget-fb uk-position-fixed uk-position-center-right uk-position-z-index">
+    <div class="widget-fb uk-position-fixed uk-position-center-right uk-position-z-index uk-visible@s">
     <img src="images/fb_icon_325x325.png" alt="" class="uk-border-circle">
     <div class="container-fb">
-
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FWeb-service-108869091863179%2F&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=3191112487833406" width="340" height="331" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </div>
 </div>
     <div class="uk-section uk-padding-remove bg-moredark">
-        <div class="uk-container uk-padding-remove">
+        <div class="uk-container uk-padding-remove uk-visible@s">
             <nav class="uk-navbar-container uk-margin" data-uk-navbar>
     <div class="uk-navbar bg-moredark">
 
@@ -42,6 +42,23 @@
             <li class=@@kontakt><a href="kontakt.html">Kontakt</a></li>
         </ul>
     </div>
+</nav>
+        </div>
+        <div class="uk-container uk-hidden@s uk-flex uk-flex-between">
+            <img src="images/logo.png" alt="" class="">
+            <a class="uk-padding" data-uk-icon="menu" type="button" uk-toggle="target: #offcanvas-nav" style="color: white"></a>
+        </div>
+    </div>
+    <div id="offcanvas-nav" uk-offcanvas>
+        <div class="uk-offcanvas-bar uk-offcanvas-bar uk-flex uk-flex-column">
+            <nav>
+    <h3>Menu:</h3>
+    <ul class="uk-nav uk-nav-default">
+        <li class=@@oferta><a href="oferta.html">Oferta</a></li>
+        <li class=@@realizacje><a href="realizacje.html">Realizacje</a></li>
+        <li class=@@opinie><a href="opinie.html">Opinie</a></li>
+        <li class=@@kontakt><a href="kontakt.html">Kontakt</a></li>
+    </ul>
 </nav>
         </div>
     </div>

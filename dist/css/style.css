@@ -1,15 +1,3 @@
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-}
-
 .box-shadow {
   box-shadow: 0px 8px 36px 0px rgb(66, 68, 90);
 }
@@ -23,11 +11,11 @@ h4 {
   color: #fff;
 }
 
-.subtitle {
+.divider-horizont {
   position: relative;
   margin-left: 40px;
 }
-.subtitle:before {
+.divider-horizont:before {
   position: absolute;
   content: "";
   width: 32px;
@@ -37,10 +25,23 @@ h4 {
   left: -40px;
 }
 
+.divider-vertical {
+  position: relative;
+  margin-left: 10px;
+}
+.divider-vertical:before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  top: 0;
+  bottom: 0;
+  background-color: #feee01;
+  left: -10px;
+}
+
 .overlay-container {
   position: relative;
   overflow: hidden;
-  min-height: 400px;
 }
 
 .overlay-skew {
@@ -54,6 +55,28 @@ h4 {
   transform: skew(-0.312rad);
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #2a264b;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
 .uk-button-eldam {
   background-color: #feee01;
   color: #000;
@@ -64,8 +87,8 @@ h4 {
 
 .widget-fb {
   position: relative;
-  width: 280px;
-  margin-right: -210px;
+  width: 400px;
+  margin-right: -340px;
   transition: all 0.5s;
   cursor: pointer;
   border-top-left-radius: 80px 80px;
@@ -84,8 +107,8 @@ h4 {
   position: absolute;
   top: 0;
   right: 0;
-  width: 210px;
-  height: 300px;
+  width: 340px;
+  height: 331px;
   background-color: #1877f2;
   margin-right: 0;
 }
@@ -129,6 +152,8 @@ h4 {
 .uk-navbar-nav > li > a {
   text-transform: none;
   color: #fff;
+  font-size: 16px;
+  font-family: "Poopins", sans-serif;
 }
 
 .uk-nav-default > li > a {
@@ -141,10 +166,15 @@ h4 {
   margin-left: 7px;
 }
 
+.uk-offcanvas-bar .uk-nav-default > li.uk-active > a {
+  color: #feee01;
+  margin-left: 7px;
+}
+
 .uk-overlay-eldam {
   background-color: #2a264b;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 .uk-overlay-eldam a {
   color: #feee01;
@@ -156,7 +186,6 @@ h4 {
 .footer h3 {
   color: #6c64ac;
   font-size: 18px;
-  font-weight: 700;
 }
 
 .uk-subnav > * > :first-child {
@@ -172,13 +201,9 @@ h4 {
 }
 
 .testimonials-city {
-  color: #e9db0a;
+  color: #feee01;
 }
 
 .testimonials-name {
   font-weight: bold;
-}
-
-.oferta h1 {
-  color: #fff;
 }

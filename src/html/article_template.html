@@ -6,8 +6,19 @@
 <body>
     @@include("./particles/widget-fb.html")
     <div class="uk-section uk-padding-remove bg-moredark">
-        <div class="uk-container uk-padding-remove">
+        <div class="uk-container uk-padding-remove uk-visible@s">
             @@include("./particles/navbar.html",{
+                "realizacje":"uk-active"
+            })
+        </div>
+        <div class="uk-container uk-hidden@s uk-flex uk-flex-between">
+            <img src="images/logo.png" alt="" class="">
+            <a class="uk-padding" data-uk-icon="menu" type="button" uk-toggle="target: #offcanvas-nav" style="color: white"></a>
+        </div>
+    </div>
+    <div id="offcanvas-nav" uk-offcanvas>
+        <div class="uk-offcanvas-bar uk-offcanvas-bar uk-flex uk-flex-column">
+            @@include("./particles/nav.html",{
                 "realizacje":"uk-active"
             })
         </div>
@@ -26,7 +37,7 @@
     <div class="uk-section">
         <div class="uk-container">
             <div class="uk-card uk-card-body">
-                <span class="subtitle">Kompleksowe rozwiązania dla Twojego domu</span>
+                <span class="divider-horizont">Kompleksowe rozwiązania dla Twojego domu</span>
                 <h2>Instalacje elektryczne i teletechniczne</h2>
             </div>
             <div class="uk-card uk-card-body uk-padding-remove-top uk-padding-remove-bottom">

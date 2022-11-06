@@ -6,8 +6,19 @@
 <body>
     @@include("./particles/widget-fb.html")
     <div class="uk-section uk-padding-remove bg-moredark">
-        <div class="uk-container uk-padding-remove">
+        <div class="uk-container uk-padding-remove uk-visible@s">
             @@include("./particles/navbar.html",{
+                "kontakt":"uk-active"
+            })
+        </div>
+        <div class="uk-container uk-hidden@s uk-flex uk-flex-between">
+            <img src="images/logo.png" alt="" class="">
+            <a class="uk-padding" data-uk-icon="menu" type="button" uk-toggle="target: #offcanvas-nav" style="color: white"></a>
+        </div>
+    </div>
+    <div id="offcanvas-nav" uk-offcanvas>
+        <div class="uk-offcanvas-bar uk-offcanvas-bar uk-flex uk-flex-column">
+            @@include("./particles/nav.html",{
                 "kontakt":"uk-active"
             })
         </div>
@@ -26,19 +37,19 @@
             <div class="uk-child-width-1-2@m uk-text-left" data-uk-grid>
                 <div>
                     <div class="uk-card uk-card-body">
-                        <span class="subtitle">Masz pytania?</span>
+                        <span class="divider-horizont">Masz pytania?</span>
                         <h2>Skontaktuj się z nami!</h2>
                         <div uk-grid class="uk-child-width-1-1 uk-child-width-1-2@s">
                             <div class="">
                                 <div class="uk-text-bold">ELDAM Damian Szlendak</div>
-                                <p>Łęczeszyce 10;</p>
-                                <p>05-622 Belsk Duży</p>
+                                <p class="uk-margin-small">Łęczeszyce 10;</p>
+                                <p class="uk-margin-small">05-622 Belsk Duży</p>
                             </div>
                             <div class="">
                                 <div class="uk-text-bold">Dane kontaktowe</div>
-                                <p>tel: 531 649 707
-                                <p>tel: 693 845 535</p>
-                                <p>e-mail: instalacjeeldam@gmail.com</p>
+                                <p class="uk-margin-small"><span class="uk-text-bold">tel:</span> 531 649 707
+                                <p class="uk-margin-small"><span class="uk-text-bold">tel:</span> 693 845 535</p>
+                                <p class="uk-margin-small"><span class="uk-text-bold">e-mail:</span> instalacjeeldam@gmail.com</p>
                             </div>
                         </div>
                     </div>

@@ -6,8 +6,19 @@
 <body>
     @@include("./particles/widget-fb.html")
     <div class="uk-section uk-padding-remove bg-moredark">
-        <div class="uk-container uk-padding-remove">
+        <div class="uk-container uk-padding-remove uk-visible@s">
             @@include("./particles/navbar.html",{
+                "opinie":"uk-active"
+            })
+        </div>
+        <div class="uk-container uk-hidden@s uk-flex uk-flex-between">
+            <img src="images/logo.png" alt="" class="">
+            <a class="uk-padding" data-uk-icon="menu" type="button" uk-toggle="target: #offcanvas-nav" style="color: white"></a>
+        </div>
+    </div>
+    <div id="offcanvas-nav" uk-offcanvas>
+        <div class="uk-offcanvas-bar uk-offcanvas-bar uk-flex uk-flex-column">
+            @@include("./particles/nav.html",{
                 "opinie":"uk-active"
             })
         </div>
@@ -16,7 +27,7 @@
         <div class="uk-container uk-container-expand uk-padding-remove">
             <div>
                 <div class="oferta uk-background-cover uk-background-muted uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(images/opinie.jpg);">
-                    <h1>opinie<h1>
+                    <h1>Opinie<h1>
                 </div>
             </div>
         </div>
@@ -26,7 +37,7 @@
             <div class="uk-child-width-1-2@m uk-text-left" data-uk-grid>
                 <div>
                     <div class="uk-card uk-card-body">
-                        <span class="subtitle">Kompleksowe rozwiązania dla Twojego domu</span>
+                        <span class="divider-horizont">Kompleksowe rozwiązania dla Twojego domu</span>
                         <h2>Poznaj opinie naszych klientów</h2>
                     </div>
                 </div>

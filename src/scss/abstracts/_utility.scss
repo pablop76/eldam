@@ -11,7 +11,7 @@
   background-color: $base-color-moredark;
   color: #fff;
 }
-.subtitle {
+.divider-horizont {
   position: relative;
   margin-left: 40px;
 
@@ -25,10 +25,22 @@
     left: -40px;
   }
 }
+.divider-vertical {
+  position: relative;
+  margin-left: 10px;
+  &:before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    top: 0;
+    bottom: 0;
+    background-color: $accent-color-dark;
+    left: -10px;
+  }
+}
 .overlay-container {
   position: relative;
   overflow: hidden;
-  min-height: 400px;
 }
 .overlay-skew {
   position: absolute;

@@ -6,8 +6,17 @@
 <body>
     @@include("./particles/widget-fb.html")
     <div class="uk-section uk-padding-remove bg-moredark">
-        <div class="uk-container uk-padding-remove">
+        <div class="uk-container uk-padding-remove uk-visible@s">
             @@include("./particles/navbar.html")
+        </div>
+        <div class="uk-container uk-hidden@s uk-flex uk-flex-between">
+            <img src="images/logo.png" alt="" class="">
+            <a class="uk-padding" data-uk-icon="menu" type="button" uk-toggle="target: #offcanvas-nav" style="color: white"></a>
+        </div>
+    </div>
+    <div id="offcanvas-nav" uk-offcanvas>
+        <div class="uk-offcanvas-bar uk-offcanvas-bar uk-flex uk-flex-column">
+            @@include("./particles/nav.html")
         </div>
     </div>
     <div class="uk-section uk-padding-remove">
