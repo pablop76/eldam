@@ -4,9 +4,8 @@
 
 ## użyte technologie.
 
-1. html,css,js,php
+1. html,css,js
 2. program tworzący pakiety [gulp.js](https://gulpjs.com/)
-
 3. platforma front-end do tworzenia szybkich i wydajnych interfejsów internetowych [uikit](https://getuikit.com/)
 
 ## niezbędne oprogramowanie.
@@ -29,3 +28,4 @@
 1. uruchomienie
 
 - gulp
+- na życzenie klienta pliki nie są kompresowane, ani scalane, w katalogu dist powstają czyste pliki statyczne
