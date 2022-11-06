@@ -16,7 +16,7 @@
 
 ## knfiguracja projektu.
 
-1. pobranie paczkę z projektem [github](https://github.com/pablop76/agrotax-gulp)
+1. pobranie paczkę z projektem [github](https://github.com/pablop76/eldam.git)
 2. wypakować
 3. otworzyc folder za pomoca IDE
 4. otworzyć terminal w katalogu projektu
