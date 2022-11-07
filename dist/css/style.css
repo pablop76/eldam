@@ -203,6 +203,11 @@ h4 {
   color: #feee01;
 }
 
+@media screen and (max-width: 900px) {
+  .uk-slideshow-items img {
+    width: 100px;
+  }
+}
 .footer {
   color: #fff;
 }
