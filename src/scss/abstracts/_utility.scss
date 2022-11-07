@@ -2,9 +2,7 @@
  utility 
  */
 .box-shadow {
-  -webkit-box-shadow: 0px 8px 36px 0px rgba(66, 68, 90, 1);
-  -moz-box-shadow: 0px 8px 36px 0px rgba(66, 68, 90, 1);
-  box-shadow: 0px 8px 36px 0px rgba(66, 68, 90, 1);
+  box-shadow: 0px 16px 32px 0px rgba(42, 38, 75, 0.1);
 }
 
 .background-accent-color-light {
@@ -13,6 +11,9 @@
 .background-base-color-moredark {
   background-color: $base-color-moredark;
   color: #fff;
+}
+.background-accent-color-dark {
+  background-color: $accent-color-dark;
 }
 .divider-horizont {
   position: relative;

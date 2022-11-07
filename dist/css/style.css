@@ -2,7 +2,7 @@
  utility 
  */
 .box-shadow {
-  box-shadow: 0px 8px 36px 0px rgb(66, 68, 90);
+  box-shadow: 0px 16px 32px 0px rgba(42, 38, 75, 0.1);
 }
 
 .background-accent-color-light {
@@ -12,6 +12,10 @@
 .background-base-color-moredark {
   background-color: #2a264b;
   color: #fff;
+}
+
+.background-accent-color-dark {
+  background-color: #feee01;
 }
 
 .divider-horizont {
@@ -83,12 +87,18 @@ h2 {
   font-weight: 700;
 }
 
+h3,
+h4 {
+  font-weight: 700;
+}
+
 .uk-button-eldam {
   background-color: #feee01;
   color: #000;
   font-weight: 600;
   text-transform: none;
   font-family: "Poppins", sans-serif;
+  box-shadow: 0px 16px 32px 0px rgba(42, 38, 75, 0.1);
 }
 
 .widget-fb {
@@ -122,7 +132,7 @@ h2 {
 .back-to-top {
   width: 54px;
   height: 54px;
-  background-color: #e9db0a;
+  background-color: #feee01;
   cursor: pointer;
   right: -200px;
   transition: all 0.5s;
@@ -163,6 +173,7 @@ h2 {
   color: #fff;
   font-size: 16px;
   font-family: "Poopins", sans-serif;
+  letter-spacing: 1.65px;
 }
 
 .uk-nav-default > li > a {
