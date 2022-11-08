@@ -56,3 +56,9 @@
   mix-blend-mode: multiply;
   transform: skew(-0.312rad);
 }
+@media screen and (max-width: 640px) {
+  .vertical-flex-s {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
