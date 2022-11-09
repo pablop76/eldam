@@ -213,6 +213,9 @@ h4 {
   .uk-slideshow-items img {
     width: 100px;
   }
+  .uk-overlay-eldam {
+    mix-blend-mode: hard-light;
+  }
 }
 .footer {
   color: #fff;
@@ -222,6 +225,11 @@ h4 {
   font-size: 18px;
 }
 
+@media screen and (max-width: 640px) {
+  .uk-nav li a {
+    justify-content: center;
+  }
+}
 .uk-subnav > * > :first-child {
   text-transform: none;
   color: #000;

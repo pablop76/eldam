@@ -5,3 +5,12 @@
     font-size: 18px;
   }
 }
+@media screen and (max-width: 640px) {
+  .uk-nav {
+    li {
+      a {
+        justify-content: center;
+      }
+    }
+  }
+}
