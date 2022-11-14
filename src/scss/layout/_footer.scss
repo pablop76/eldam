@@ -1,8 +1,12 @@
 .footer {
   color: #fff;
+  padding-top: 40px;
   h3 {
     color: $base-color-light;
     font-size: 18px;
+  }
+  .uk-card .uk-card-body{
+
   }
 }
 @media screen and (max-width: 640px) {
