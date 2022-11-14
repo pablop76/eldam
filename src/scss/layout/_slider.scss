@@ -5,6 +5,7 @@
   background-color: $base-color-moredark;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  mix-blend-mode: hard-light;
   a {
     color: $accent-color-dark;
   }
@@ -14,8 +15,5 @@
     img {
       width: 100px;
     }
-  }
-  .uk-overlay-eldam {
-    mix-blend-mode: hard-light;
   }
 }
