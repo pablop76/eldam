@@ -205,11 +205,13 @@ h4 {
  */
 .uk-overlay-eldam {
   background-color: #2a264b;
+  mix-blend-mode: multiply;
+  min-height: 500px;
+}
+
+.blenda_cover a {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  mix-blend-mode: hard-light;
-}
-.uk-overlay-eldam a {
   color: #feee01;
 }
 

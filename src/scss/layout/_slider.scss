@@ -3,11 +3,16 @@
  */
 .uk-overlay-eldam {
   background-color: $base-color-moredark;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  mix-blend-mode: hard-light;
-  a {
-    color: $accent-color-dark;
+  mix-blend-mode: multiply;
+  min-height: 500px;
+}
+.blenda{
+  &_cover{
+    a {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      color: $accent-color-dark;
+    }
   }
 }
 @media screen and (max-width: 900px) {
